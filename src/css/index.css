@@ -1,0 +1,50 @@
+@import './tailwindcss.base.css';
+@import url('https://hangeul.pstatic.net/hangeul_static/css/maru-buri.css');
+
+@font-face {
+  font-family: 'IM_Hyemin-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2106@1.1/IM_Hyemin-Bold.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    -webkit-text-size-adjust: none;
+  }
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Nanum Myeongjo';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.maru-buri {
+  font-family: 'MaruBuri';
+  font-size: 1.08rem;
+  font-weight: 700;
+  letter-spacing: 0.4em;
+  margin-bottom: 2.5rem;
+}
+
+.great-vibes {
+  font-family: 'Great Vibes', cursive;
+  font-style: oblique;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  body {
+    width: 40%;
+    margin: 0 auto;
+  }
+}
